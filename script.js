@@ -1,4 +1,5 @@
 let btn = document.querySelector("button")
+let predict=document.querySelector(".prediction")
 
 let moved = false
 
@@ -13,3 +14,8 @@ btn.addEventListener("mouseover" ,function(){
 
 
 })
+setTimeout(function(){
+    btn.style.display = "none"
+    predict.innerText = "you will become ambani!!!!!"
+
+},5000)
